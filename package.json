@@ -1,0 +1,25 @@
+{
+  "name": "my-sandbox",
+  "version": "1.0.0",
+  "description": "my sandbox for ideas and solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "debug": "nodemon -q index.js",
+    "lint": "eslint --fix ."
+  },
+  "author": "DerekM28",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  }
+}
