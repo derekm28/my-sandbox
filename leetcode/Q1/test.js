@@ -34,17 +34,3 @@ const { twoSum } = require('./submission');
 // test('should return indexes that equal target', function () {
 //     expect(twoSum(input)).toBe(output);
 // })
-
-// Alternatively:
-//
-// test('lengthofLastWord - test 1', function () {
-//   expect(lengthOfLastWord('hello world')).toBe(5);
-// });
-
-// test('lengthofLastWord - test 2', function () {
-//   expect(lengthOfLastWord(' fly me    to the moon  ')).toBe(5);
-// });
-
-// test('lengthofLastWord - test 3', function () {
-//   expect(lengthOfLastWord('luffy is still joyboy')).toBe(5);
-// });
