@@ -1,13 +1,13 @@
 'use strict';
 
 /*
-Suppose we have data represting the counts of how many times users have clicked on a url. Thsi data is represented in the form of a string with the click count and url seperarted by a comma as follows:
+Suppose we have data representing the counts of how many times users have clicked on a url. This data is represented in the form of a string with the click count and url seperarted by a comma as follows:
 
 url_count = "600,mail.yahoo.com"
 
-Write a funcktion that takes in  a string like this and returns the number preceding the url in integer form.
+Write a function that takes in  a string like this and returns the number preceding the url in integer form.
 
-Note: Don not call split, index, indexOf, or equivalent functions for this problem.
+Note: Do not call split, index, indexOf, or equivalent functions for this problem.
 
 Sample input and output:
 url_count1 = "600,mail.yahoo.com" => 600

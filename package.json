@@ -11,7 +11,7 @@
   "author": "DerekM28",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "^28.1.2",
@@ -19,7 +19,9 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "@types/jest": "^28.1.4",
     "axios": "^0.27.2",
+    "eslint-plugin-jest": "^26.5.3",
     "express": "^4.18.1",
     "lodash": "^4.17.21"
   }
