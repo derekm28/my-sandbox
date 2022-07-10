@@ -36,3 +36,48 @@ image3 = [
 ]
 find_rectangle(image1) => (3,5) row, column
  */
+
+
+const image1 = [
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,0,0,0,1],
+    [1,1,1,0,0,0,1],
+    [1,1,1,1,1,1,1]
+]
+//find_rectangle(image1) => (2,3) row, column
+
+const image2 = [
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,0]
+]
+//find_rectangle(image1) => (4,6) row, column
+
+const image3 = [
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,1,1],
+    [1,1,1,1,1,0,0],
+    [1,1,1,1,1,0,0]
+]
+//find_rectangle(image1) => (3,5) row, column
+
+
+function find_rectangle(arr){
+    let target = 0;
+    for(let i = 0; i < arr.length; i++){
+        for(let j = 0; j < arr[i].length; j++){
+            if(arr[i[j]] !== target){
+                j++;
+            }
+            else{
+                return [i,j];
+            }
+        }
+    }
+}
+
+find_rectangle(image1);
