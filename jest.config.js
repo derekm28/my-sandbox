@@ -6,6 +6,6 @@
  */
 
 module.exports = {
-    clearMocks: true,
-    coverageProvider: 'v8',
+  clearMocks: true,
+  coverageProvider: 'v8',
 };
