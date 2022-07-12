@@ -19,9 +19,9 @@ The length of the input string has a constant upper limit.
 
 */
 
-const url_count1 = '600,mail.yahoo.com';
-const url_count2 = '15,google.com';
-const url_count3 = '1,stackoverflow.com';
+// const url_count1 = '600,mail.yahoo.com';
+// const url_count2 = '15,google.com';
+// const url_count3 = '1,stackoverflow.com';
 
 function findNum(str) {
   //create a variable to hold numbers
