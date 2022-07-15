@@ -4,7 +4,7 @@
   "description": "my sandbox for ideas and solutions",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "debug": "nodemon -q index.js",
     "lint": "eslint --fix ."
   },
