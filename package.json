@@ -8,7 +8,7 @@
     "debug": "nodemon -q index.js",
     "lint": "eslint --fix ."
   },
-  "author": "DerekM28",
+  "author": "derekm28",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.19.0",
