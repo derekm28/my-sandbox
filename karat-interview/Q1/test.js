@@ -11,5 +11,5 @@ const image3 = [
 ];
 
 test('find_rectangle - test 1', function () {
-  expect(find_rectangle(image3)).toBe(3, 5);
+  expect(find_rectangle(image3)).toBe([3, 5]);
 });
